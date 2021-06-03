@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* login */
+#loginfrm { width: 300px; margin: 150px auto; }
+#loginfrm div{ margin-bottom: 10px; }
+#loginfrm label { display: inline-block; width: 80px;
+                text-align: right; font-weight: bold; }
+#loginfrm input, button { padding: 5px }
+#loginfrm button { margin-left: 85px; width: 75px; }
+#loginfrm input { width: 150px}
+
+
+/* join */
+#joinfrm { width: 300px; margin: 100px auto; }
+#joinfrm div { margin-bottom: 10px; }
+#joinfrm label { display: inline-block; width: 115px;
+                 text-align: right; font-weight: bold; }
+#joinfrm input, button { padding: 5px }
+#joinfrm input { width: 150px}
+
+
+/* myinfo */
+#myinfo { width: 300px; margin: 125px auto; }
+#myinfo div { padding-bottom: 5px; }
+#myinfo .label { display: inline-block; width: 120px;
+        text-align: right; font-weight: bold;
+        padding-right: 7px; }
+        
+        
+/* list */
+table { width: 75%; margin: 0 auto;
+        border-collapse: collapse;
+        table-layout: fixed; }
+th, td { border: 1px solid black; text-align: center;
+        padding: 10px; }
+td:nth-child(2) { white-space: nowrap; overflow: hidden;
+                text-overflow: ellipsis; }
+
+button { width: 75px; padding: 5px; margin-right: -10px; }
+.newbtn { text-align: right; border: none; }
+.tbnav { border: none; }
+.cpage { font-weight: bold; color: red;
+        font-size: 35px }
+        
+
+/* view */    
+#view{ width:600px; margin: 0 auto; padding-top: 50px; }
+#view div { margin-bottom: 20px; }
+#view div:first-child { margin-bottom: 25px; }
+
+#view div label{ font-weight: bold; display:inline-block; width: 120px;
+					text-align: right; }
+#view div span { border:1px solid silver; padding: 5px;}
+#view .contents { display: inline-block; width: 450px; height:350px; }
+#view .dragup { vertical-align: top; }
+
+
+/* write */   
+#boardfrm { width:600px; margin: 0 auto; padding-top: 50px; }
+#boardfrm div { margin-bottom: 10px; }
+#boardfrm div label{ font-weight: bold; display:inline-block; width: 120px;
+					text-align: right; }
+#contents { display: inline-block; width: 450px; height:150px; }
+/*div:nth-child(3) > label { color:red; }*/
+#boardfrm .dragup { vertical-align: top; }
